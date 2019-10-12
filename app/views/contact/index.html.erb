@@ -2,22 +2,22 @@
 <br>
 <br>
 <br>
-<form style="margin:100px;" action='/send_mail'>
+<form style="margin:100px;" action='/send_mail' method="post">
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
+      <input type="text" class="form-control" name="name" placeholder="First name">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
+      <input type="text" class="form-control" name="name1" placeholder="Last name">
     </div>
   </div>
   <br>
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your@email.com">
+    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="your@email.com">
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1"></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message Here!!"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message Here!!"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Contact Us</button>
 </form>
