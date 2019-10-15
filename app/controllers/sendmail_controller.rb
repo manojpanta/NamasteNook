@@ -1,12 +1,7 @@
 class SendmailController < ApplicationController
   skip_before_action :verify_authenticity_token
   def create
-    SendMailService.new.send_email(email_params)
+    MailSender.contact_us(params[:name], params[:name1], params[:email] params[:message])
     redirect_to root_path
-  end
-
-  private
-  def email_params
-    params.permit(:name, :name1, :email, :message)
   end
 end
