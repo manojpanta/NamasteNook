@@ -41,10 +41,6 @@ html {
   font-family: serif;
 }
 
-.bracket-margin {
-
-}
-
 .tax-bracket-table {
   display: flex;
   background: #f8f9fa;
@@ -105,4 +101,10 @@ html {
     background: rgb(111,111,111);
     -webkit-box-shadow: 0 1px 1px rgb(0,0,0);
     background: -webkit-linear-gradient(rgb(200,200,200), rgb(150,150,150));
+}
+.table th {
+  padding-left: 30px;
+}
+.table td {
+  padding-left: 30px;
 }
