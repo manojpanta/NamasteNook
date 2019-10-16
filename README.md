@@ -1,24 +1,67 @@
+
 # README
+## Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+NamasteNook is a web application designed for a consulting company that is registered as NamasteNook LLC. It will be capable of providing customers a very good experience with scheduling an appointment, contacting a support team, reading blogs posted by the admin and learn about NamasteNook's services. 
 
-Things you may want to cover:
+NamasteNook utilizes the languages of Ruby(2.4.1), HTML, CSS, JS, the web framework of Rails(~> 5.2.3) and Boostrap for smooth user interface.
 
-* Ruby version
+#### [**_View NamasteNook in Production_**](www.nooknamaste.com)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To run NamasteNook on a local machine, navigate to the directory in which you would like the project to be located, then execute the following commands:
 
-* Database creation
+```
+$ git clone git@github.com:manojpanta/NamasteNook.git
+$ cd NamasteNook
+$ bundle
+$ rails g rspec:install
+$ rails db:create
+$ rails db:migrate
+$ bundle exec figaro install
+```
+### Environment Variable Setup
 
-* Database initialization
+###### Sign Up on the following API:
+* [Sendgrid](https://sendgrid.com)
 
-* How to run the test suite
+Add the following code snippet to your `config/application.yml` file.
+```
+SENDGRID_API_KEY: "API key you have from sendgrid"
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Running Tests
 
-* Deployment instructions
+To run the test suite, execute the following command:
+`rspec`.
 
-* ...
+### Experience Namaste Nook in your local Machine.
+
+To view NamasteNook in development, execute the following command from the project directory: `rails s`. In a browser, visit `localhost:3000`, to view the application.
+
+
+## Tools Utilized:
+
+<!-- * <Continuous Integration> -->
+* Figaro
+* Faraday
+* Shoulda-Matchers
+* Bootstrap
+* GitHub & GitHub Projects
+* RSpec
+* Capybara
+* Pry
+* Launchy
+* PostgreSQL
+* Chrome Dev Tools
+* SendGrid
+* Jquery Rails
+* Tether
+* active_designer
+<!-- * <insert background workers> -->
+<!-- * <insert tool for speed optimization evaluation> -->
+
+## Author
+
+* [Manoj Panta](https://github.com/manojpanta)
