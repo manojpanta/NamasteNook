@@ -6,8 +6,7 @@ NamasteNook is a web application designed for a consulting company that is regis
 
 NamasteNook utilizes the languages of Ruby(2.4.1), HTML, CSS, JS, the web framework of Rails(~> 5.2.3) and Boostrap for smooth user interface.
 
-#### [**_View NamasteNook in Production_**](www.nooknamaste.com)
-
+#### [**_View NamasteNook in Production_**](http://www.nooknamaste.com)
 ## Getting Started
 
 To run NamasteNook on a local machine, navigate to the directory in which you would like the project to be located, then execute the following commands:
