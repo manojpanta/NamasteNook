@@ -2,7 +2,7 @@
 # README
 ## Description
 
-NamasteNook is a web application designed for a consulting company that is registered as NamasteNook LLC. It will be capable of providing customers a very good experience with scheduling an appointment, contacting a support team, reading blogs posted by the admin and learn about NamasteNook's services. 
+NamasteNook is a web application designed for a consulting company that is registered as Namaste Nook Consulting Firm LLC. It will be capable of providing customers a very good experience with scheduling an appointment, contacting a support team, reading blogs posted by the admin and learn about NamasteNook's services. 
 
 NamasteNook utilizes the languages of Ruby(2.4.1), HTML, CSS, JS, the web framework of Rails(~> 5.2.3) and Boostrap for smooth user interface.
 
