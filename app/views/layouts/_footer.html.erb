@@ -1,0 +1,57 @@
+<div class="footer-container">
+  <div id ='chevron'>
+  </div>
+  <div class='footer'>
+    <%= link_to 'Contact US', contact_path%>
+    <button class='facebook-footer'style="font-size:24px" onclick="window.open('https://www.facebook.com/NamasteNook/')" value="Open Window" type="button"><i class="fa fa-facebook-square"></i>
+    </button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Want a Free Consultation?
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Contact Us!!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+
+
+            <!-- added here  -->
+            <form action='/send_mail' method="post">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" name="name" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" name="name1" placeholder="Last name">
+                </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="your@email.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message Here!!"></textarea>
+              </div>
+            <!-- </form> -->
+            <!-- till here -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Contact Us</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
