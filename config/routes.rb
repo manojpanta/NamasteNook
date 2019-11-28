@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   post '/send_mail', to: 'sendmail#create'
   get '/search', to: 'search#index'
   get '/brackets', to: 'brackets#index'
+  post '/calculate-tax', to: 'brackets#create'
 end

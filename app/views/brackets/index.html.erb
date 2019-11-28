@@ -152,8 +152,30 @@
   </button>
   </p>
   <div class="collapse" id="collapseExample">
-    <div class="card card-body">
-      Something About Us! .
-    </div>
+    <!-- tax calculator here -->
+
+    <form class='tax-bracket-calc'action='/calculate-tax' method='post'>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Total Income</label>
+          <input type="text" class="form-control input-padding" id="inputCity" name='income' placeholder="Your total annual income">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">Bracket</label>
+          <select id="inputState" class="form-control" name='bracket'>
+            <option selected>Choose...</option>
+            <option>Singles</option>
+            <option>Head of Household</option>
+            <option>Married Joint Filers</option>
+          </select>
+        </div>
+        <!-- <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div> -->
+      </div>
+      <button type="submit" class="btn btn-primary">Calculate</button>
+    </form>
+    <!-- taxcalculator added -->
   </div>
 </center>

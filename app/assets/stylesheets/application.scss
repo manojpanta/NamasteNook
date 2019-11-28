@@ -118,6 +118,10 @@ html {
   background: white;
 }
 
+.add-margin {
+  margin-bottom: 50px;
+}
+
 
 
 
@@ -208,7 +212,19 @@ html {
    outline: none;
  }
 
- 
+ .tax-bracket-calc{
+   padding: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+ }
+
+ .input-padding{
+   padding-left: 50%;
+   padding-right: 10%;
+ }
+
+
 //  .result-check {
 //    font-size: 20px;
 //    font-family: sans-serif;
