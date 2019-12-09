@@ -1,14 +1,14 @@
 <div class="footer-container">
-  <div id ='chevron'>
+  <div class='get-help-section'>
+    <h3>Do You Need Help?</h3>
+    <p>We believe in taking care of our clients first. When you come to us with your taxes and accounting, our primary goal is to make sure that we get your problems solved and that you are completely satisfied with the results</p>
   </div>
-  <div class='footer'>
-    <%= link_to 'Contact US', contact_path%>
-    <button class='facebook-footer'style="font-size:24px" onclick="window.open('https://www.facebook.com/NamasteNook/')" value="Open Window" type="button"><i class="fa fa-facebook-square"></i>
-    </button>
+  <div class='footer' >
+    <!-- <button class='facebook-footer'style="font-size:24px" onclick="window.open('https://www.facebook.com/NamasteNook/')" value="Open Window" type="button"><i class="fa fa-facebook-square"></i>
+    </button> -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-      Want a Free Consultation?
+      Get a Free Consultation
     </button>
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -20,9 +20,6 @@
             </button>
           </div>
           <div class="modal-body">
-
-
-
             <!-- added here  -->
             <form action='/send_mail' method="post">
               <div class="row">
